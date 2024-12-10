@@ -1,0 +1,5 @@
+*{
+    margin: 0; /*começo com esse para não vir o defalt do navegador*/
+    padding: 0; /*começo com esse para não vir o defalt do navegador*/
+    box-sizing: border-box; /*começo com esse para não vir o defalt do navegador*/
+}

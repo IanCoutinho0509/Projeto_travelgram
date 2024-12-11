@@ -3,7 +3,7 @@ nav {
     justify-content: space-between; /*colocando o espaço entre os dois blocos que tem no nav, a tag a e a tag ul*/
     align-items: center; /* alinhando os itens na linha main do bloco nav */
     line-height: 0; /*tirando o espaçamento a mais q vem defout do nav*/
-    padding-block: 20px;/*espaçamento externo em cima e em baixo*/
+    padding-block: 20px;/*espaçamento interno em cima e em baixo*/
 }
 
 nav ul{ /* ul dentro da nav*/
@@ -12,7 +12,7 @@ nav ul{ /* ul dentro da nav*/
     align-items: center; /* alinhando os itens na linha main do bloco nav */
     gap: 24px; /*espaçamento de 20 px de elemento a elemento da ul*/
 
-    padding-block: 8px;/*espaçamento externo em cima e em baixo*/
+    padding-block: 8px;/*espaçamento interno em cima e em baixo*/
 }
 
 nav ul li:last-child img { /*quero pegar a img da ultima li so*/

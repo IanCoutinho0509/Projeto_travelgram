@@ -1,0 +1,41 @@
+header{
+    padding-block: 32px; /*espaçamento interno em cima e em baixo*/
+    font: var(--text-md); /*tamanho da fonte*/
+}
+
+header .container{
+    display: flex; /*elementos dentro do container ficarem um do lado do outro*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile{
+    display: flex; /*colocando o texto e a imagem um do lado do outro*/
+    gap: 32px; /*espaçamento entre elementos dentro do profile*/
+}
+
+#profile > div{ /*primeiro nivel de div q aparece dentro do profile*/
+    max-width: 384px; /*largura maxima do bloco do lado da imagem com o texto da isabela*/
+}
+
+#profile h1{
+    font: var(--text-lg); /*tamanho da fonte*/
+    color: var(--text-color-primary); /*cor da fonte*/
+    margin-bottom: 8px; /*espaçamento externo*/
+}
+
+#info{
+    list-style: none; /*tirando as bolinhas da lista*/
+
+    display: flex;
+    flex-direction: column; /*ativo o flex mas coloco um a baixo do outro*/
+    gap: 16px; /*espaçamento entre elementos do flex e por isso usei o flex, pra usar gap */
+
+    width: 280px;
+}
+
+#info li{
+    display: flex; /*para o icone ficar ao lado do texto na parte da direita*/
+    align-items: center;
+    gap: 8px;
+}

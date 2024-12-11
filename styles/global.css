@@ -37,9 +37,9 @@ a:hover{ /*quando passo o mouse no a*/
 }
 
 .container{ /*classe */
-    padding-inline: 32px;/*espaçamento externo na esquerda e na direita*/
+    padding-inline: 32px;/*espaçamento interno na esquerda e na direita*/
     max-width: 1280px; /*se diminuir o tamanho das coisas esse é o maximo q as coisas vao diminuir*/
-    margin-inline: auto; /*para ficar no centro*/
+    margin-inline: auto; /*para ficar no centro da esquerda e da direita*/
 }
 
 .bg-suface-color {

@@ -1,0 +1,13 @@
+main{
+    display: flex;
+    flex-wrap: wrap; /*isso faz com que as imagens ocupem apenas o local disponível ao inves de ficar tudo uma do lado da outra e ter q arrastar pro lado pra ver tudo*/
+    gap: 24px; /*espaçamento entre todos os elementos flex*/
+    padding-block: 24px;/*esse eh o espaçamento de interno do main em cima e em baixo*/
+}
+
+main img{ /*imagem do main*/
+    width: 286px;
+    height: 286px;
+    object-fit: cover; /*caso as fotos n cubram um quadrado perfeito isso faz elas cobrirem*/
+
+}

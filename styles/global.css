@@ -19,3 +19,29 @@
     --text-sm: 12px/170% var(--font-family);/*small*/
     --text: 16px/150% var(--font-family);
 }
+
+body{
+    font: var(--text);
+    color: var(--text-color-secondary);
+    background-color: var(--background-color);
+}
+
+a{
+    text-decoration: none; /*tirando o underline de link*/
+    color: inherit; /*essa propiedade indica que a cor vai ser herdada, logo vai tirar aqule azul de links e vai herdar a cor do pai que em algum momento vai ser o body*/
+}
+
+a:hover{ /*quando passo o mouse no a*/
+    color: var(--brand-color);
+    text-decoration: underline; /*colocando underline quando passar o mouse*/
+}
+
+.container{ /*classe */
+    padding-inline: 32px;/*espaçamento externo na esquerda e na direita*/
+    max-width: 1280px; /*se diminuir o tamanho das coisas esse é o maximo q as coisas vao diminuir*/
+    margin-inline: auto; /*para ficar no centro*/
+}
+
+.bg-suface-color {
+    background-color: var(--surface-color);
+}

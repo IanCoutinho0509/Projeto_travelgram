@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    padding-block: 24px; /*espaçamento interno em cima e em baixo*/
+    gap: 24px; /*espaçamento entre os elementos flex*/
+}
+
+footer span:nth-child(1) { /*primeiro filho que eh span se o primeiro n fosse espan tinha que colocar o numero do primeiro span*/
+    margin-right: auto; /*manda todo mundo depois do primeiro span pra direita total*/
+}
